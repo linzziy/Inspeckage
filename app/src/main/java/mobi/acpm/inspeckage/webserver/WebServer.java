@@ -139,7 +139,7 @@ public class WebServer extends fi.iki.elonen.NanoHTTPD {
         }
         mContext.registerReceiver(new InspeckageWebReceiver(mContext), new IntentFilter("mobi.acpm.inspeckage.INSPECKAGE_WEB"));
 
-        start(10000);
+        //start(10000);
     }
 
     public KeyPair generateKeys(String alias) {
